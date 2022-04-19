@@ -1,0 +1,31 @@
+.btn-container {
+  display: flex;
+  padding: 0;
+}
+
+.btn-container button {
+  width: calc(100% - 50px);
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+}
+
+.btn h6 {
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+  justify-content: center;
+  margin: 0;
+}
+
+@media (min-width: 576px) {
+  .btn-container {
+    height: 65px;
+
+  }
+
+
+  .btn h6 {
+    font-size: 1.3em;
+  }
+}
